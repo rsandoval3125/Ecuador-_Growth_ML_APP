@@ -1,0 +1,28 @@
+{
+  "run_id": "RUN-003",
+  "parametros": {
+    "n_estimators": 100,
+    "max_depth": 7,
+    "min_samples_leaf": 2
+  },
+  "metricas_cv": {
+    "mae": 0.9553320666851022,
+    "rmse": 1.0607859528056212
+  },
+  "metricas_test": {
+    "run_id": "RUN-003",
+    "mae_test": 0.6334478828710972,
+    "rmse_test": 0.826661321760357,
+    "r2_test": 0.5753595795734289,
+    "n_test": 7,
+    "inicio_test": "2025Q1",
+    "fin_test": "2026Q3"
+  },
+  "features": [
+    "precio_petroleo",
+    "exportaciones_petroleras",
+    "credito_privado",
+    "ventas_internas",
+    "consumo_electrico"
+  ]
+}
